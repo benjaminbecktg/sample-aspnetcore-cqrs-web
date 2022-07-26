@@ -1,0 +1,7 @@
+.vs
+/SampleAspNetCoreCQRS.Business/bin
+/SampleAspNetCoreCQRS.Business/obj
+/SampleAspNetCoreCQRS.Business.Tests/bin
+/SampleAspNetCoreCQRS.Business.Tests/obj
+/SampleAspNetCoreCQRS.Web/bin
+/SampleAspNetCoreCQRS.Web/obj

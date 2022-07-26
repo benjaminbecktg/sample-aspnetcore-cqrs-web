@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAspNetCoreCQRS.Web", "SampleAspNetCoreCQRS.Web\SampleAspNetCoreCQRS.Web.csproj", "{895B7282-4814-4D6D-87CA-F6166565A639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAspNetCoreCQRS.Business", "SampleAspNetCoreCQRS.Business\SampleAspNetCoreCQRS.Business.csproj", "{6AA9C162-7D84-4B59-817B-E96E4A8ABD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAspNetCoreCQRS.Business.Tests", "SampleAspNetCoreCQRS.Business.Tests\SampleAspNetCoreCQRS.Business.Tests.csproj", "{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{078A57FA-308F-42B8-81F6-02F4F9E5C738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895B7282-4814-4D6D-87CA-F6166565A639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895B7282-4814-4D6D-87CA-F6166565A639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895B7282-4814-4D6D-87CA-F6166565A639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895B7282-4814-4D6D-87CA-F6166565A639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA9C162-7D84-4B59-817B-E96E4A8ABD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA9C162-7D84-4B59-817B-E96E4A8ABD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA9C162-7D84-4B59-817B-E96E4A8ABD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA9C162-7D84-4B59-817B-E96E4A8ABD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6769C1D2-8356-4F35-BDA6-DDDACAB48BEE} = {078A57FA-308F-42B8-81F6-02F4F9E5C738}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {477AECFB-1F95-4025-B60F-3287BE727D81}
+	EndGlobalSection
+EndGlobal
